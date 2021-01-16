@@ -56,6 +56,7 @@
       {{- end }}
     </ul>
     {{- end }}
+    {{- if .Site.Params.ShowPostNavLinks }}
     <nav class="paginav">
       {{$pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
       {{ with $pages.Prev . }}
@@ -73,6 +74,7 @@
       </a>
       {{end}}
     </nav>
+    {{- end }}
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
     {{- partial "share_icons.html" . }}
     {{- end }}
