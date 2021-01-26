@@ -10,11 +10,12 @@
     right: 0;
     align-items: center;
     height: 80%;
-    text-align: center
+    text-align: center;
+    background-image: url("/header_img2.png");
 }
 
 .profile .profile_inner h1 {
-    padding: 12px 0
+    padding: 12px 0;
 }
 
 .profile img {
