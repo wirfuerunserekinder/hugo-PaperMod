@@ -5,13 +5,17 @@
 }
 
 .main .profile {
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     align-items: center;
     height: 80%;
     text-align: center;
+  
+}
+.profile .profile_inner {
     background-image: url("/header_img2.png");
+    background-size: contain;
 }
 
 .profile .profile_inner h1 {
