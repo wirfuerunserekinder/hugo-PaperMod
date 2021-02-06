@@ -15,8 +15,8 @@
 }
 
 .profile .profile_inner {
-    background-image: url("/header_img2.png");
-    background-size: contain;
+    background-image: url("/header_img3.png");
+    background-size: cover;
 }
 
 .profile .profile_inner h1 {
